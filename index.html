@@ -1,588 +1,124 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>613 Barbershop — Ottawa</title>
-<meta name="description" content="613 Barbershop — Ottawa's house for sharp cuts, hot shaves, and street-class precision." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;0,6..96,900;1,6..96,400;1,6..96,700&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="613 Barbershop — Ottawa's house for sharp cuts, hot shaves, and street-class precision.">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Lucida Grande'; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Times; color: #757575; -webkit-text-stroke: #757575}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none}
+    span.s3 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s4 {font: 11.0px 'Helvetica Neue'; font-kerning: none; color: rgba(0, 0, 0, 0.85); background-color: #b3b3b3; -webkit-text-stroke: 0px rgba(0, 0, 0, 0.85)}
+    span.s5 {font: 12.0px 'Times New Roman'; text-decoration: underline ; font-kerning: none}
+    span.s6 {font: 11.0px 'Zapf Dingbats'; font-kerning: none; color: rgba(0, 0, 0, 0.85); background-color: #b3b3b3; -webkit-text-stroke: 0px rgba(0, 0, 0, 0.85)}
+    span.s7 {font: 12.0px 'Times New Roman'; font-kerning: none}
+    span.s8 {font: 12.0px 'Lucida Grande'; text-decoration: underline ; font-kerning: none}
+    span.s9 {font: 11.0px Times; text-decoration: underline ; font-kerning: none}
+    span.s10 {font: 14.0px Times; text-decoration: underline ; font-kerning: none; color: #757575; -webkit-text-stroke: 0px #757575}
+    span.s11 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
+    span.s12 {font: 12.0px 'Times New Roman'; text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #0000e9}
+    span.s13 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+  </style>
 </head>
 <body>
-
-<!-- ============== CURSOR ============== -->
-<div class="cursor-ring" id="cring"></div>
-<div class="cursor-dot" id="cdot"></div>
-
-<!-- ============== NAV ============== -->
-<header class="nav" id="nav">
-  <div class="container nav-inner">
-    <div class="nav-left">
-      <a class="navlink" href="#services">01 / Services</a>
-      <a class="navlink" href="#about">02 / About</a>
-      <a class="navlink" href="#chair">03 / The Chair</a>
-      <button class="menu-btn" id="menuOpen" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
-        <span>Menu</span>
-        <span class="menu-btn-line" aria-hidden="true"></span>
-      </button>
-    </div>
-    <a href="#top" class="brand-mark" aria-label="613 Barbershop">
-      <span class="num">613</span>
-      <span class="word">Barbershop</span>
-    </a>
-    <div class="nav-right">
-      <span class="status-pill" id="statusPill">
-        <span class="dot"></span>
-        <span id="statusText">Open</span>
-      </span>
-      <a class="navlink" href="#hours">04 / Visit</a>
-      <a class="navlink" href="#book" style="border-bottom:1px solid currentColor;padding-bottom:6px">Book →</a>
-    </div>
-  </div>
-</header>
-
-<nav class="drawer" id="drawer" aria-hidden="true" aria-label="Mobile menu">
-  <button class="drawer-close" id="menuClose" aria-label="Close menu">
-    <span>Close</span>
-    <span aria-hidden="true">✕</span>
-  </button>
-  <a href="#services" data-close><span class="num">01</span>Services</a>
-  <a href="#about" data-close><span class="num">02</span>About</a>
-  <a href="#chair" data-close><span class="num">03</span>The Chair</a>
-  <a href="#hours" data-close><span class="num">04</span>Visit</a>
-  <a href="#book" data-close><span class="num">05</span>Book</a>
-</nav>
-
-<main>
-  <!-- ============== HERO ============== -->
-  <section class="hero" id="top">
-    <div class="hero-spot"></div>
-    <div class="hero-grain"></div>
-    <div class="container" style="position:relative;z-index:2">
-      <div class="hero-meta">
-        <div>Issue №613 · Vol. I</div>
-        <div class="center">★ ★ ★ ★ ★ &nbsp; Ottawa, ON</div>
-        <div class="right" id="heroDate">— · —</div>
-      </div>
-      <div class="hero-title">
-        <h1>
-          <span class="block">Cut</span>
-          <span class="block"><span class="it">sharp,</span> dressed</span>
-          <span class="block"><span class="stroke">like the city</span></span>
-        </h1>
-      </div>
-      <div class="hero-sub-row">
-        <div class="lede">A barbershop in the capital for the considered cut, the close shave, and the conversation that comes with it.</div>
-        <div class="center-mark">— Est. Ottawa —</div>
-        <div class="est">613 Barbershop<br/>Bank St. — The Capital</div>
-      </div>
-    </div>
-    <div style="height:min(8vh,64px)"></div>
-  </section>
-
-  <!-- ============== MARQUEE 1 ============== -->
-  <div class="marquee invert">
-    <div class="marquee-track" id="m1"></div>
-  </div>
-
-  <!-- ============== SERVICES ============== -->
-  <section id="services" class="svc-wrap">
-    <div class="container">
-      <div class="section-head">
-        <div class="folio">§ 01 — The Menu</div>
-        <h2 class="title">Services <span class="it">&amp;</span> Pricing</h2>
-        <div class="meta">15 services · cash &amp; card</div>
-      </div>
-    </div>
-    <div class="container" style="padding-left:0;padding-right:0">
-      <div class="svc-grid" id="svcGrid"></div>
-    </div>
-  </section>
-
-  <!-- ============== MARQUEE 2 ============== -->
-  <div class="marquee">
-    <div class="marquee-track" id="m2"></div>
-  </div>
-
-  <!-- ============== ABOUT ============== -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="section-head">
-        <div class="folio">§ 02 — The House</div>
-        <h2 class="title">A capital <span class="it">institution.</span></h2>
-        <div class="meta">Bank St. · Ottawa</div>
-      </div>
-      <div style="height:48px"></div>
-      <div class="about-grid">
-        <div class="reveal">
-          <p><span class="dropcap">6</span>13 was built on a simple idea — that a haircut is a small, weekly ritual that should leave a man feeling considered. We sit at the intersection of barbershop tradition and the rhythm of a working capital: editors, civil servants, students, tradesmen, and everyone in between.</p>
-          <p>The chairs are vintage. The blades are sharp. The conversation is yours. We take our time, we watch the mirror with you, and we don't let you leave until the line is right.</p>
-          <p><em>The cut is the easy part. The standard is everything else.</em></p>
-        </div>
-        <div class="about-side">
-          <dl class="reveal" style="margin:0;display:grid;gap:24px">
-            <div><dt>Established</dt><dd>Ottawa, <span class="it">on the 613.</span></dd></div>
-            <div><dt>Discipline</dt><dd>Skin fades, scissor work, hot shaves <span class="it">— in that order.</span></dd></div>
-            <div><dt>Tools of trade</dt><dd>Andis, Wahl, straight razor, hot towel.</dd></div>
-            <div>
-              <dt>House Code</dt>
-              <div class="about-tags">
-                <span>Walk-ins welcome</span><span>Cash · Card · Tap</span><span>Student discount</span>
-                <span>Military · Senior</span><span>By appointment</span><span>No rushing</span>
-              </div>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== CHAIR / IG ============== -->
-  <section id="chair" class="video">
-    <div class="container">
-      <div class="section-head">
-        <div class="folio">§ 03 — The Chair</div>
-        <h2 class="title">Watch the <span class="it">work.</span></h2>
-        <div class="meta">@613barbershop · Reels</div>
-      </div>
-      <div style="height:48px"></div>
-      <div class="video-grid">
-        <div class="reveal">
-          <div class="video-frame" id="videoFrame">
-            <div class="video-corner tl">REC ●</div>
-            <div class="video-corner br">@613barbershop</div>
-            <a class="video-poster" id="videoPoster" href="https://www.instagram.com/reel/DMGcpUXPsox/" target="_blank" rel="noopener">
-              <div class="play-btn">▶</div>
-              <div class="mono" style="font-size:11px;letter-spacing:.24em">Play Reel</div>
-              <div class="serif-it" style="font-size:14px;color:#888">From the chair</div>
-            </a>
-          </div>
-        </div>
-        <div class="reveal">
-          <div class="video-copy">
-            <h3>Inside the <span class="it">shop,</span> on the chair, on the city.</h3>
-            <p>Documenting cuts, conversations, and craft from the 613. New work goes up on the regular — head to the feed for the latest fades, line-ups, and hot-towel shaves.</p>
-            <a class="btn" href="https://www.instagram.com/613barbershop/" target="_blank" rel="noopener">Follow on Instagram <span class="arrow">→</span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== REVIEWS ============== -->
-  <section id="reviews" class="reviews">
-    <div class="container">
-      <div class="section-head">
-        <div class="folio">§ 04 — From the Mirror</div>
-        <h2 class="title">What they're <span class="it">saying.</span></h2>
-        <div class="meta">5.0 · Google reviews</div>
-      </div>
-      <div style="height:24px"></div>
-      <div class="review-grid" id="reviewGrid"></div>
-      <div style="height:36px"></div>
-      <div style="text-align:center">
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa" target="_blank" rel="noopener">Read · or leave · a review <span class="arrow">→</span></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== BOOKING ============== -->
-  <section id="book" class="booking">
-    <div class="booking-grain"></div>
-    <div class="container booking-inner">
-      <div class="eyebrow">— Reserve the chair —</div>
-      <h2>Book <span class="it">now.</span></h2>
-      <p>Pick your barber. Pick your time. Done in under a minute. Walk-ins welcome when the chairs are open.</p>
-      <a class="btn solid big" href="https://book.squareup.com/appointments/ku7yzb68ozdcjl/location/LNCQ3EK621DXB/services" target="_blank" rel="noopener">Book the chair <span class="arrow">→</span></a>
-      <div class="btn-row" style="margin-top:32px">
-        <a class="btn" href="tel:+16134245858">Call · 613 · 424 · 5858</a>
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa" target="_blank" rel="noopener">Review on Google <span class="arrow">→</span></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== HOURS / VISIT ============== -->
-  <section id="hours" class="hours">
-    <div class="container">
-      <div class="section-head">
-        <div class="folio">§ 05 — Visit</div>
-        <h2 class="title">Hours <span class="it">&amp;</span> address.</h2>
-        <div class="meta" id="hoursMeta">Hours · today</div>
-      </div>
-      <div style="height:36px"></div>
-      <div class="hours-grid">
-        <div class="contact-block">
-          <h3>The <span class="it">shop.</span></h3>
-          <p class="addr">613 Barbershop<br/>Ottawa, Ontario<br/>Canada</p>
-          <a class="phone" href="tel:+16134245858">(613) 424 · 5858</a>
-          <div class="contact-actions">
-            <a class="btn solid" href="tel:+16134245858">Call us <span class="arrow">→</span></a>
-            <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa" target="_blank" rel="noopener">Review us <span class="arrow">→</span></a>
-            <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=613+Barbershop+Ottawa" target="_blank" rel="noopener">Directions <span class="arrow">→</span></a>
-          </div>
-        </div>
-        <div class="hours-list" id="hoursList"></div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<!-- ============== FOOTER ============== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-mark" aria-hidden="true">
-      613
-      <span class="word">— Barbershop · Ottawa —</span>
-    </div>
-    <div class="footer-grid">
-      <div>
-        <h5>The Shop</h5>
-        <p>613 Barbershop</p>
-        <p>Ottawa, Ontario · Canada</p>
-        <p>(613) 424 · 5858</p>
-      </div>
-      <div>
-        <h5>Navigate</h5>
-        <a href="#services">Services</a><a href="#about">About</a><a href="#chair">The Chair</a><a href="#hours">Visit</a><a href="#book">Book</a>
-      </div>
-      <div>
-        <h5>Reserve</h5>
-        <a href="https://book.squareup.com/appointments/ku7yzb68ozdcjl/location/LNCQ3EK621DXB/services" target="_blank" rel="noopener">Book online</a>
-        <a href="tel:+16134245858">Call the shop</a>
-        <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa" target="_blank" rel="noopener">Review on Google</a>
-      </div>
-      <div>
-        <h5>Follow</h5>
-        <a href="https://www.instagram.com/613barbershop/" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa" target="_blank" rel="noopener">Google Maps</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div>© <span id="yr">2026</span> · 613 Barbershop · All rights reserved</div>
-      <div>Designed &amp; developed by <a class="author" href="https://www.saidrustom.ca" target="_blank" rel="noopener">Said Rustom</a></div>
-    </div>
-  </div>
-</footer>
-
-<script defer>/* ============================================================
-   613 Barbershop — vanilla JS
-   ============================================================ */
-(function () {
-  'use strict';
-
-  // -------- DATA --------
-  const HOURS = [
-    { day: 'MON', short: 'Monday',    open: 9.5, close: 21 },
-    { day: 'TUE', short: 'Tuesday',   open: 9.5, close: 21 },
-    { day: 'WED', short: 'Wednesday', open: 9.5, close: 21 },
-    { day: 'THU', short: 'Thursday',  open: 9.5, close: 21 },
-    { day: 'FRI', short: 'Friday',    open: 9.5, close: 21 },
-    { day: 'SAT', short: 'Saturday',  open: 10,  close: 20 },
-    { day: 'SUN', short: 'Sunday',    open: 10,  close: 19 }
-  ];
-
-  const SERVICES = [
-    { name:'The Full Experience',    desc:'Haircut, beard, face wax, face steam, hair wash', price:'$75', time:'60 min' },
-    { name:'Haircut & Beard Trim',    desc:'Regular haircut paired with a beard trim',         price:'$40', time:'30 min' },
-    { name:'Skin Fade & Beard',       desc:'Skin fade with beard trim, razor & hot towel',     price:'$45', time:'40 min' },
-    { name:'Bald & Beard Combo',      desc:'5+ blade. Straight razor, hot towel included',     price:'$40', time:'30 min' },
-    { name:'Skin Fade / Taper',       desc:'Tight skin fade or graduated taper',                price:'$33', time:'30 min' },
-    { name:'Scissor Cut',             desc:'Hand-shaped scissor work, soft finish',             price:'$33', time:'30 min' },
-    { name:'Regular Haircut',         desc:'Clean haircut finished with hot towels',            price:'$28', time:'20 min' },
-    { name:'Hot Shave',               desc:'Straight razor, classic hot-towel shave',           price:'$30', time:'20 min' },
-    { name:'Beard Trim',              desc:'Hot towel, straight razor finish',                  price:'$23', time:'20 min' },
-    { name:'Lineup',                  desc:'Crisp edge-up between cuts',                        price:'$20', time:'20 min' },
-    { name:'Student / Senior / Mil.', desc:'Skin fade · taper · scissor — verified ID',         price:'$25–30', time:'20 min' },
-    { name:'Little Man',              desc:'Under 12. Patient, careful, no tears',              price:'$23', time:'20 min' },
-    { name:'Threading',               desc:'Brow & detail threading',                           price:'$15', time:'5 min' },
-    { name:'Wax — Face / Nose / Ear', desc:'Each. Quick, clean, painless-ish',                  price:'$5',  time:'10 min' },
-    { name:'Shampoo',                 desc:'Add-on shampoo & scalp rinse',                      price:'$5',  time:'5 min' }
-  ];
-
-  const REVIEWS = [
-    { quote:'Amir is the master of his craft. Highly recommend 613 Barbershop.', name:'Loud Deer', meta:'Google · ★★★★★' },
-    { quote:'Brought my 6 year old in. The barber was fantastic — patient, careful, and exactly the cut my son wanted.', name:'Carina Q.', meta:'Google · ★★★★★' },
-    { quote:'Walked in randomly and found my new go-to. Stylish, sharp, completely transformed a bad cut into something I actually wear.', name:'Mr. Sausage', meta:'Local Guide · ★★★★★' },
-    { quote:'New to Ottawa. Aws was professional, understood exactly what I meant, even suggested cuts. Genuinely great.', name:'Karim A.M.', meta:'Local Guide · ★★★★★' },
-    { quote:'Super clean shop, friendly atmosphere. They take their time, pay attention to detail, and make sure you leave happy.', name:'Alishah G.', meta:'Google · ★★★★★' },
-    { quote:'Saved my life with this trim. Great prices, great people, great work. Made my hair look better than I thought it could.', name:'Rafi P.', meta:'Google · ★★★★★' }
-  ];
-
-  const TAGLINE_1 = ['Sharp Cuts', 'Hot Shaves', 'Skin Fades', 'Straight Razor', 'Walk-Ins Welcome', 'Est. Ottawa'];
-  const TAGLINE_2 = ['Book the Chair', '★ ★ ★ ★ ★', 'Bank Street', 'No Rush', 'By Appointment', 'The 613'];
-
-  // -------- HELPERS --------
-  const $ = (s, p) => (p || document).querySelector(s);
-  const $$ = (s, p) => Array.from((p || document).querySelectorAll(s));
-  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-  function fmtClock(h) {
-    const hr = Math.floor(h);
-    const m = Math.round((h - hr) * 60);
-    const ampm = hr >= 12 ? 'p.m.' : 'a.m.';
-    const h12 = hr % 12 === 0 ? 12 : hr % 12;
-    return h12 + (m ? ':' + String(m).padStart(2, '0') : '') + ' ' + ampm;
-  }
-  function isOpenAt(date) {
-    const idx = (date.getDay() + 6) % 7;
-    const h = HOURS[idx];
-    const t = date.getHours() + date.getMinutes() / 60;
-    return { open: t >= h.open && t < h.close, today: h, todayIdx: idx };
-  }
-
-  // -------- HERO META --------
-  function renderHeroMeta() {
-    const now = new Date();
-    const { today } = isOpenAt(now);
-    const dateStr = now.toLocaleDateString('en-CA', { weekday:'short', month:'short', day:'numeric' }).toUpperCase();
-    const el = $('#heroDate');
-    if (el) el.textContent = dateStr + ' · ' + fmtClock(today.open) + '–' + fmtClock(today.close);
-  }
-
-  // -------- STATUS PILL --------
-  function renderStatusPill() {
-    const now = new Date();
-    const { open, today } = isOpenAt(now);
-    const pill = $('#statusPill');
-    const text = $('#statusText');
-    if (!pill || !text) return;
-    if (open) {
-      pill.classList.remove('closed');
-      text.textContent = 'Open · til ' + fmtClock(today.close);
-    } else {
-      pill.classList.add('closed');
-      text.textContent = 'Closed · ' + today.day;
-    }
-  }
-
-  // -------- SERVICES --------
-  function renderServices() {
-    const grid = $('#svcGrid');
-    if (!grid) return;
-    grid.innerHTML = SERVICES.map((s, i) => {
-      const nameHtml = s.name.split(' & ').map(esc).join('<span class="it"> &amp; </span>');
-      return [
-        '<a class="svc" href="#book" data-cursor="hover">',
-        '<div class="svc-num">', String(i + 1).padStart(2, '0'), '</div>',
-        '<div>',
-        '<div class="svc-name">', nameHtml, '</div>',
-        '<div class="svc-desc">', esc(s.desc), '</div>',
-        '</div>',
-        '<div class="svc-meta">',
-        '<div class="svc-price">', esc(s.price), '</div>',
-        '<div class="svc-time">', esc(s.time), '</div>',
-        '</div>',
-        '</a>'
-      ].join('');
-    }).join('');
-  }
-
-  // -------- REVIEWS --------
-  function renderReviews() {
-    const grid = $('#reviewGrid');
-    if (!grid) return;
-    grid.innerHTML = REVIEWS.map((r) => [
-      '<article class="review reveal">',
-      '<div class="review-stars">★ ★ ★ ★ ★</div>',
-      '<p class="review-quote">', esc(r.quote), '</p>',
-      '<div class="review-meta"><span class="name">— ', esc(r.name), '</span><span>', esc(r.meta), '</span></div>',
-      '</article>'
-    ].join('')).join('');
-  }
-
-  // -------- HOURS LIST --------
-  function renderHoursList() {
-    const list = $('#hoursList');
-    const meta = $('#hoursMeta');
-    if (!list) return;
-    const now = new Date();
-    const { todayIdx, open, today } = isOpenAt(now);
-    if (meta) meta.textContent = (open ? 'Open now' : 'Closed now') + ' · ' + today.day;
-    list.innerHTML = HOURS.map((h, i) => [
-      '<div class="hours-row', (i === todayIdx ? ' today' : ''), '">',
-      '<div class="day">', esc(h.short), '</div>',
-      '<div class="time">', fmtClock(h.open), ' — ', fmtClock(h.close), '</div>',
-      '<div class="badge">', (i === todayIdx ? (open ? 'Open now' : 'Closed now') : ''), '</div>',
-      '</div>'
-    ].join('')).join('');
-  }
-
-  // -------- MARQUEES --------
-  function renderMarquees() {
-    function fill(el, items) {
-      if (!el) return;
-      const loop = items.concat(items, items, items);
-      el.innerHTML = loop.map((it) => '<span>' + esc(it) + '</span>').join('');
-    }
-    fill($('#m1'), TAGLINE_1);
-    fill($('#m2'), TAGLINE_2);
-  }
-
-  // -------- NAV SCROLL --------
-  function bindNavScroll() {
-    const nav = $('#nav');
-    if (!nav) return;
-    const onScroll = () => {
-      if (window.scrollY > 24) nav.classList.add('scrolled');
-      else nav.classList.remove('scrolled');
-    };
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-  }
-
-  // -------- DRAWER --------
-  function bindDrawer() {
-    const drawer = $('#drawer');
-    const openBtn = $('#menuOpen');
-    const closeBtn = $('#menuClose');
-    if (!drawer) return;
-
-    let lastFocus = null;
-
-    function openDrawer() {
-      lastFocus = document.activeElement;
-      drawer.classList.add('open');
-      drawer.setAttribute('aria-hidden', 'false');
-      if (openBtn) openBtn.setAttribute('aria-expanded', 'true');
-      document.body.classList.add('no-scroll');
-      // give the drawer transition a moment, then move focus to close
-      setTimeout(() => { if (closeBtn) closeBtn.focus(); }, 60);
-    }
-    function closeDrawer() {
-      drawer.classList.remove('open');
-      drawer.setAttribute('aria-hidden', 'true');
-      if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
-      document.body.classList.remove('no-scroll');
-      if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
-    }
-
-    if (openBtn) openBtn.addEventListener('click', openDrawer);
-    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
-    $$('[data-close]', drawer).forEach((a) => a.addEventListener('click', closeDrawer));
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer();
-    });
-  }
-
-  // -------- HERO SPOTLIGHT --------
-  function bindHeroSpotlight() {
-    const hero = $('.hero');
-    if (!hero) return;
-    if (window.matchMedia('(pointer: coarse)').matches) return;
-    hero.addEventListener('mousemove', (e) => {
-      const r = hero.getBoundingClientRect();
-      hero.style.setProperty('--mx', (e.clientX - r.left) + 'px');
-      hero.style.setProperty('--my', (e.clientY - r.top) + 'px');
-    });
-  }
-
-  // -------- CUSTOM CURSOR --------
-  function bindCursor() {
-    const dot = $('#cdot');
-    const ring = $('#cring');
-    if (!dot || !ring) return;
-    if (window.matchMedia('(pointer: coarse)').matches || window.matchMedia('(max-width: 900px)').matches) {
-      dot.style.display = 'none';
-      ring.style.display = 'none';
-      document.body.style.cursor = 'auto';
-      return;
-    }
-    let dx = innerWidth / 2, dy = innerHeight / 2;
-    let rx = dx, ry = dy;
-    let raf;
-    function tick() {
-      rx += (dx - rx) * 0.18;
-      ry += (dy - ry) * 0.18;
-      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
-      raf = requestAnimationFrame(tick);
-    }
-    window.addEventListener('mousemove', (e) => {
-      dx = e.clientX; dy = e.clientY;
-      dot.style.transform = 'translate(' + dx + 'px,' + dy + 'px) translate(-50%,-50%)';
-    });
-    document.addEventListener('mouseover', (e) => {
-      const t = e.target;
-      if (t && t.closest && t.closest('a, button, .svc, [data-cursor="hover"]')) ring.classList.add('hover');
-    });
-    document.addEventListener('mouseout', (e) => {
-      const t = e.target;
-      if (t && t.closest && t.closest('a, button, .svc, [data-cursor="hover"]')) ring.classList.remove('hover');
-    });
-    raf = requestAnimationFrame(tick);
-  }
-
-  // -------- REVEAL ON SCROLL --------
-  function bindReveals() {
-    const els = $$('.reveal');
-    if (!('IntersectionObserver' in window)) {
-      els.forEach((el) => el.classList.add('in'));
-      return;
-    }
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          e.target.classList.add('in');
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    els.forEach((el) => io.observe(el));
-  }
-
-  // -------- VIDEO LOADER (IG embed on click) --------
-  function bindVideo() {
-    const frame = $('#videoFrame');
-    const poster = $('#videoPoster');
-    if (!frame || !poster) return;
-    poster.addEventListener('click', (e) => {
-      e.preventDefault();
-      const iframe = document.createElement('iframe');
-      iframe.src = 'https://www.instagram.com/reel/DMGcpUXPsox/embed';
-      iframe.setAttribute('allow', 'encrypted-media');
-      iframe.setAttribute('allowfullscreen', '');
-      iframe.title = '613 Barbershop Reel';
-      iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0';
-      poster.remove();
-      frame.appendChild(iframe);
-    });
-  }
-
-  // -------- YEAR --------
-  function renderYear() {
-    const el = $('#yr');
-    if (el) el.textContent = String(new Date().getFullYear());
-  }
-
-  // -------- INIT --------
-  function init() {
-    renderHeroMeta();
-    renderStatusPill();
-    renderServices();
-    renderReviews();
-    renderHoursList();
-    renderMarquees();
-    renderYear();
-
-    bindNavScroll();
-    bindDrawer();
-    bindHeroSpotlight();
-    bindCursor();
-    bindReveals();
-    bindVideo();
-
-    // periodic open/closed update
-    setInterval(() => { renderStatusPill(); renderHoursList(); }, 60000);
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-})();
-</script>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s2">01 / Services</span><span class="s3"> </span><span class="s2">02 / About</span><span class="s3"> </span><span class="s2">03 / The Chair</span><span class="s3"> </span><span class="s4">Menu</span></p>
+<p class="p2"><span class="s2">613 Barbershop</span></p>
+<p class="p2"><span class="s2">Open 04 / Visit</span><span class="s3"> </span><span class="s2">Book </span><span class="s5">→</span></p>
+<p class="p2"><span class="s4">Close </span><span class="s6">✕</span><span class="s4"> </span><span class="s2">01Services</span><span class="s3"> </span><span class="s2">02About</span><span class="s3"> </span><span class="s2">03The Chair</span><span class="s3"> </span><span class="s2">04Visit</span><span class="s3"> </span><span class="s2">05Book</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">Ottawa, Ontario</span></p>
+<p class="p3"><span class="s1">— · —</span></p>
+<h1 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Cut sharp, dressed like the city</b></span></h1>
+<p class="p3"><span class="s1">A barbershop in the capital for the considered cut, the close shave, and the conversation that comes with it.</span></p>
+<p class="p3"><span class="s1">— Ottawa —</span></p>
+<p class="p3"><span class="s1">613 Barbershop, 598 Rideau St<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">§ 01 — The Menu</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Services &amp; Pricing</b></span></h2>
+<p class="p3"><span class="s1">15 services · cash &amp; card</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">§ 02 — The House</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>A capital institution.</b></span></h2>
+<p class="p3"><span class="s1">Bank St. · Ottawa</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1">613 was built on a simple idea: a haircut should leave a man sharper than he arrived. It's a small ritual, and it should be done right.</span></p>
+<p class="p5"><span class="s1">We sit where barbershop tradition meets the pace of Ottawa — cutting hair for civil servants, tradesmen, students, founders, and everyone between.</span></p>
+<p class="p3"><span class="s1">The chairs are vintage. The blades are sharp. The conversation is yours to start or skip. We take our time, watch the mirror with you, and we don't let you leave until the line is right.</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1"><i>The cut is the easy part. The standard is everything else.</i><i></i></span></p>
+<p class="p3"><span class="s1">Established</span></p>
+<p class="p3"><span class="s1">Ottawa, on the 613.</span></p>
+<p class="p3"><span class="s1">Discipline</span></p>
+<p class="p3"><span class="s1">Skin fades, scissor work, hot shaves — in that order.</span></p>
+<p class="p3"><span class="s1">Tools of trade</span></p>
+<p class="p3"><span class="s1">Andis, Wahl, straight razor, hot towel.</span></p>
+<p class="p3"><span class="s1">House Code</span></p>
+<p class="p3"><span class="s1">Walk-ins welcomeCash · Card · TapStudent discount Military · SeniorBy appointmentNo rushing</span></p>
+<p class="p3"><span class="s1">§ 03 — The Chair</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Watch the work.</b></span></h2>
+<p class="p3"><span class="s1">@613barbershop · Reels</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">REC </span><span class="s7">●</span></p>
+<p class="p3"><span class="s1">@613barbershop</span></p>
+<p class="p6"><span class="s2"><a href="https://www.instagram.com/reel/DMGcpUXPsox/">▶<span class="s8"></span></a></span></p>
+<p class="p7"><span class="s2"><a href="https://www.instagram.com/reel/DMGcpUXPsox/">Play Reel<span class="s9"></span></a></span></p>
+<p class="p8"><span class="s2"><a href="https://www.instagram.com/reel/DMGcpUXPsox/">From the chair<span class="s10"></span></a></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Inside the shop, on the chair, on the city.</b></span></h3>
+<p class="p5"><span class="s1">Documenting cuts, conversations, and craft from the 613. New work goes up on the regular — head to the feed for the latest fades, line-ups, and hot-towel shaves.</span></p>
+<p class="p2"><span class="s2"><a href="https://www.instagram.com/613barbershop/">Follow on Instagram <span class="s5">→</span></a></span></p>
+<p class="p3"><span class="s1">§ 04 — From the Mirror</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>What they're saying.</b></span></h2>
+<p class="p3"><span class="s1">5.0 · Google reviews</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p10"><span class="s2"><a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa">Read · or leave · a review <span class="s5">→</span></a></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">— Reserve the chair —</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Book now.</b></span></h2>
+<p class="p5"><span class="s1">Pick your barber. Pick your time. Done in under a minute. Walk-ins welcome when the chairs are open.</span></p>
+<p class="p2"><span class="s2"><a href="https://book.squareup.com/appointments/ku7yzb68ozdcjl/location/LNCQ3EK621DXB/services">Book the chair <span class="s5">→</span></a></span></p>
+<p class="p2"><span class="s2"><a href="tel:+16134245858">Call · 613 · 424 · 5858</a></span><span class="s3"> <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa"><span class="s11">Review on Google </span><span class="s12">→</span></a></span></p>
+<p class="p3"><span class="s1">§ 05 — Visit</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Hours &amp; address.</b></span></h2>
+<p class="p3"><span class="s1">Hours · today</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>The shop.</b></span></h3>
+<p class="p5"><span class="s1">613 Barbershop<br>
+Ottawa, Ontario<br>
+Canada</span></p>
+<p class="p2"><span class="s2"><a href="tel:+16134245858">(613) 424 · 5858</a></span></p>
+<p class="p2"><span class="s2"><a href="tel:+16134245858">Call us <span class="s5">→</span></a></span><span class="s3"> <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa"><span class="s11">Review us </span><span class="s12">→</span></a> <a href="https://www.google.com/maps/dir/?api=1&amp;destination=613+Barbershop+Ottawa"><span class="s11">Directions </span><span class="s12">→</span></a></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">613 — Barbershop · Ottawa —</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>The Shop</b></span></h5>
+<p class="p5"><span class="s1">613 Barbershop</span></p>
+<p class="p5"><span class="s1">Ottawa, Ontario · Canada</span></p>
+<p class="p5"><span class="s1">(613) 424 · 5858</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Navigate</b></span></h5>
+<p class="p2"><span class="s2">ServicesAboutThe ChairVisitBook</span></p>
+<p class="p12"><span class="s1"><b>Reserve</b></span></p>
+<p class="p2"><span class="s2"><a href="https://book.squareup.com/appointments/ku7yzb68ozdcjl/location/LNCQ3EK621DXB/services">Book online</a></span><span class="s3"> <a href="tel:+16134245858"><span class="s11">Call the shop</span></a> <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa"><span class="s11">Review on Google</span></a></span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Follow</b></span></h5>
+<p class="p2"><span class="s2"><a href="https://www.instagram.com/613barbershop/">Instagram</a></span><span class="s3"> <a href="https://www.google.com/maps/search/?api=1&amp;query=613+Barbershop+Ottawa"><span class="s11">Google Maps</span></a></span></p>
+<p class="p3"><span class="s1">© 2026 · 613 Barbershop · All rights reserved</span></p>
+<p class="p3"><span class="s1">Designed &amp; developed by <a href="https://www.saidrustom.ca/"><span class="s13">Said Rustom</span></a></span></p>
 </body>
 </html>
